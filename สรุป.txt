@@ -1,0 +1,34 @@
+Data type
+    Basic
+     - Numeric ข้อมูลตัวเลข
+      * Interger(int) ข้อมูลที่เป็นตัวเลขจำนวนเต็ม
+      * Floating point(float) ข้อมูลที่เป็นตัวเลขที่เป็นเลขทศนิยม
+     - Boolean ชนิดข้อมูลแบบตรรกะ เก็บค่าได้เพียง 2 ค่าคือ ค่าจริงและค่าเท็จ
+     - String ใช้เก็บข้อมูลประเภทข้อความ
+    Composite
+     - List 
+     - Tuple
+     - Dictionary
+     - Set
+
+Arithmetic Operators
+ (+) นำค่าที่กำหนดมาบวกกัน 
+ (-) นำค่าทางซ้ายมาลบกับทางขวา
+ (*) นำค่าสองค่ามาคูณกัน
+ (/) หารค่าฝั่งซ้ายด้วยค่าฝั่งขวา ผลลัพธ์จะออกมาเป็น float เสมอ(เป็นเลขทศนิยม)
+ (%) Modulus คือการหารแล้วนำเศษมาแสดง
+ (//) หารแบบปัดเศษ
+ (**) เลขฝั่งซ้ายยกกำลังด้วยเลขฝั่งขวา
+
+Input 
+ เป็นการรับค่าจากผู้ใช้ 
+  (โครงสร้าง variable = input(prompt))
+ ตัวอย่าง
+  first_name = input("Enter your first name")
+  print(first_name)
+
+ Input number
+  input จะคืนค่าที่ผู้ใช้ใส่เป็นค่า string เสมอ
+   (โครงสร้าง num = int(input)"Enter number")
+   (โครงสร้าง num = float(input)"Enter number")
+ 
